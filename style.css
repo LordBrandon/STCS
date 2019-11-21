@@ -1,0 +1,28 @@
+.body {
+ background-image: url("Traininterior.jpg");
+}
+
+.taskbar ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+.taskbar li {
+  float: left;
+}
+
+.taskbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.taskbar li a:hover {
+  background-color: red;
+}
