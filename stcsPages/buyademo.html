@@ -1,24 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>STCS </title>
-    <link href="../style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="taskbar">
+<head>
+<meta charset="UTF-8">
+<title>Love ~ Donate</title>
+	<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="taskbar">
 <ul>
-  <li><a href="stcsPages/Infopage.html">Delays</a></li>
-  <li><a href="stcsPages/buyademo.html">Buy A Demo</a></li>
-   <li style=float:right><a href="">Contact Us ###-###-####</a></li>
+  <li><a href="../">Home</a></li>
+  <li><a href="Infopage.html">Delays</a></li>
+  <li><a href="#">Buy A Demo</a></li>
+   <li><a href="">Contact Us ###-###-####</a></li>
   </ul>
 </div>
-   <div style="background-image: url('Traininterior.jpg')
-</style>
- 
-
-    <script src="script.js"></script>
-  </body>
+	<center>
+<div id="donationContent">
+  <h1 class="demo"> id="confirmation">Help Us With Your Information </h1>
+<form name="forum" style=padding-top:20px>
+  Please input the following information:<br><br>
+	Name: <input class="textbox" type="text" name="name"> <br> <br>
+	Email Address: <input class="textbox" type="text" name="email"> <br> <br>
+	Phone Number: <input class="textbox" type="text" name="phone"> <br> <br>
+<br> <br>
+Select an Issue:<br><br>
+<input type="radio" name="amount" value="10$">Delays<br>
+<input type="radio" name="amount" value="100$">Crowdedness<br>
+<input type="radio" name="amount" value="1000$">Other<br>
+<br> <br>
+If other :<br><br>
+  Explain: <input class="textbox" type="text" name="cardNum"> <br> <br>
+	<input class="button" type="button" value="Confirm" onclick="confirmInfo()" style=width:100px>
+	<!-- 
+	Document Values for the form.
+	document.form.name.value
+	document.form.email.value
+	document.form.phone.value
+	  -->
+</form>
+  </div>
+	</center>		
+<script type="text/javascript" src="../script.js"></script>  
+</body>
 </html>
-

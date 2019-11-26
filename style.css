@@ -1,7 +1,7 @@
    html{
   margin:0;
   padding:0;
-  background-image: url('BACKGROUNDDDDD.jpg');
+  background-image: url('Images/BACKGROUNDDDDD.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,6 +35,7 @@ html, body{
 .taskbar li a:hover {
   background-color: red;
 }
-.p1{
-  background-color:white
+.p{
+background-color:black;
+  
 }
