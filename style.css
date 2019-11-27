@@ -12,15 +12,17 @@ html, body{
   background-color: black;
   color: white;
 }
-
+.rotat{
+  transform: rotate(90deg);
+}
 #background{
   margin:0;
   padding:0;
   background-image: url('Images/BACKGROUNDDDDD.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  width: 100%;
+  background-size: auto;
+  width: 65%;
 }
 
 .taskbar ul {
@@ -30,6 +32,11 @@ html, body{
   padding: 0;
   overflow: hidden;
   background-color: black;
+}
+
+.taskbar{
+position: fixed;
+width: 100%;
 }
 
 .taskbar li {
@@ -48,11 +55,50 @@ html, body{
   background-color: red;
 }
 .p1{
-  padding-left: 600px;
 width: 650px;
 background-color:black;
   
 }
 .demo{
   color: white;  
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000022;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }

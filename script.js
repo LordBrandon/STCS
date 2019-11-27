@@ -15,7 +15,7 @@ window.location.href = 'Infopage.html';
 }
 */
 
-// Nabeel's Shit
+// Nabeel
 function confirmInfo() {
   alert(" Thank you! " + document.forum.name.value + ". We appreciate this Information and will use it to make services much better.");
 
