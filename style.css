@@ -1,4 +1,4 @@
-   html{
+/*   html{
   margin:0;
   padding:0;
   background-image: url('Images/BACKGROUNDDDDD.jpg');
@@ -6,9 +6,21 @@
   background-position: center;
   background-size: cover;
   height: 100%;
-}  
+}  */
 html, body{
   height: 100%;
+  background-color: black;
+  color: white;
+}
+
+#background{
+  margin:0;
+  padding:0;
+  background-image: url('Images/BACKGROUNDDDDD.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
 
 .taskbar ul {
@@ -17,7 +29,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
+  background-color: black;
 }
 
 .taskbar li {
@@ -35,7 +47,12 @@ html, body{
 .taskbar li a:hover {
   background-color: red;
 }
-.p{
+.p1{
+  padding-left: 600px;
+width: 650px;
 background-color:black;
   
+}
+.demo{
+  color: white;  
 }
